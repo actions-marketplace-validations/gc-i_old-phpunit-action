@@ -1,0 +1,6 @@
+# action.yml
+name: 'Old PHPUnit'
+description: 'Uses the version of the docker image phpunit/phpunit'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
