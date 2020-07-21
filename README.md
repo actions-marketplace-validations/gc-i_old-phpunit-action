@@ -14,8 +14,10 @@ More parameters for PHPUnit. Default `""`.
 
 ## Example usage
 
+```
 - name: Old PHPUnit
   uses: gc-i/old-phpunit-action@v1.2
   with:
     configfile: 'tests/phpunit.xml'
     more_params: 'tests'
+```
