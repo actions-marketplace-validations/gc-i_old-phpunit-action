@@ -1,6 +1,21 @@
 # action.yml
 name: 'Old PHPUnit'
-description: 'Uses the version of the docker image phpunit/phpunit'
+description: 'Uses the version of the docker image phpunit/phpunit, which contains PHPUnit 6.5 (as on July 2020)'
+author: 'Kurt Junghanns'
+branding:
+  icon: 'tool'  
+  color: 'gray-dark'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.configfile }} ${{ inputs.more_params }}
+inputs:
+  configfile:
+    description: 'location of the PHPUnit config XML'
+    required: true
+    default: 'tests/phpunit.xml'
+  more_params:
+    description: 'more parameters for PHPUnit'
+    required: false
+    default: ''
