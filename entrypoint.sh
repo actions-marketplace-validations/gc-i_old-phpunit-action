@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-phpunit -c $1
+/usr/local/bin/phpunit -c $1

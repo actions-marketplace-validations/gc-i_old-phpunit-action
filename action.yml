@@ -1,6 +1,6 @@
 # action.yml
 name: 'Old PHPUnit'
-description: 'Uses the version of the docker image phpunit/phpunit, which contains PHPUnit 6.5 (as on July 2020)'
+description: 'Uses the 6.5.3 version of the dockerfile of phpunit/phpunit, which contains PHPUnit 6.5 (as on August 2020)'
 author: 'Kurt Junghanns'
 branding:
   icon: 'tool'  

@@ -1,6 +1,6 @@
 # old-phpunit-action
 Github Action with an old version of PHPUnit.
-The base is the docker image phpunit/phpunit with PHPUnit 6.5.
+The base uses 6.5.3 version of the dockerfile of phpunit/phpunit with PHPUnit 6.5.
 
 ## Inputs
 
